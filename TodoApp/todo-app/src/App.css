@@ -1,0 +1,47 @@
+
+.mainDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Input */
+input {
+  padding: 0.5em;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  width: 200px;
+}
+
+/* Button */
+button {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
